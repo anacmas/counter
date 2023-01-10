@@ -7,6 +7,8 @@
   --light-blue: #87a7bd;
   --color-primary: #9d0191;
   --color-sec: #db6400;
+  --pale-red: rgb(241, 163, 163);
+  --pale-green: rgb(185, 229, 153);
   --grey: #eee;
   --dark-grey: #43484d;
 }
@@ -47,6 +49,18 @@ body {
   height: 30px;
   border: none;
   cursor: pointer;
+}
+
+.subtract {
+  background-color: var(--pale-red);
+}
+
+.reset {
+  background-color: var(--white);
+}
+
+.add {
+  background-color: var(--pale-green);
 }
 
 .about {
