@@ -5,6 +5,7 @@
   --black: #1c2b2d;
   --blue: #31326f;
   --light-blue: #87a7bd;
+  --darker-light-blue: #5c7586;
   --color-primary: #9d0191;
   --color-sec: #db6400;
   --pale-red: rgb(241, 163, 163);
@@ -26,6 +27,7 @@ body {
   height: 250px;
   padding: 20px 20px;
   background-color: var(--light-blue);
+  box-shadow: 2px 2px 5px var(--darker-light-blue);
 }
 
 .title {
@@ -51,6 +53,16 @@ body {
   cursor: pointer;
 }
 
+.buttons button:hover {
+  opacity: 70%;
+  transition: 0.3s;
+}
+
+.buttons button:active {
+  opacity: 90%;
+  transition: 0.3s;
+}
+
 .subtract {
   background-color: var(--pale-red);
 }
@@ -63,12 +75,30 @@ body {
   background-color: var(--pale-green);
 }
 
-.about {
-  text-align: center;
+.about-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.about span {
+.about a {
   color: var(--light-blue);
   text-decoration: underline;
   cursor: pointer;
+}
+
+.about a:hover {
+  color: var(--darker-light-blue);
+  transition: 0.3s;
+}
+
+.about-group img {
+  width: 20px;
+  opacity: 60%;
+  margin-left: 10px;
+}
+
+.about-group img:hover {
+  opacity: 30%;
+  transition: 0.3s;
 }
