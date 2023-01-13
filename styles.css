@@ -2,12 +2,8 @@
 
 :root {
   --white: #fff;
-  --black: #1c2b2d;
-  --blue: #31326f;
   --light-blue: #87a7bd;
   --darker-light-blue: #5c7586;
-  --color-primary: #9d0191;
-  --color-sec: #db6400;
   --pale-red: rgb(241, 163, 163);
   --pale-green: rgb(185, 229, 153);
   --grey: #eee;
