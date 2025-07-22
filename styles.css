@@ -39,6 +39,9 @@ body {
 
 .buttons {
   margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .buttons button {
@@ -78,9 +81,10 @@ body {
 }
 
 .about a {
-  color: var(--light-blue);
+  color: var(--pale-green);
   text-decoration: underline;
   cursor: pointer;
+  font-weight: 700;
 }
 
 .about a:hover {
